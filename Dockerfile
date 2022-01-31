@@ -1,10 +1,8 @@
-FROM alpine
+FROM ubuntu
 
-RUN apk add --no-cache bash
+COPY entrypoint.sh /entrypoint.sh
 
-COPY entrypoint.sh /usr/local/bin/entrypoint.sh
+RUN chmod +x /entrypoint.sh
 
-RUN chmod +x /usr/local/bin/entrypoint.sh
-
-ENTRYPOINT ["entrypoint.sh"]
+ENTRYPOINT ["/entrypoint.sh"]
 
