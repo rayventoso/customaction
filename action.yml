@@ -1,10 +1,10 @@
-name: 'Hello World Printer'
-description: 'my first custom action'
-author: 'Ray Ventoso'
-runs:
-  using: 'docker'
-  image: 'Dockerfile'
-branding:
-  icon: 'gift'
-  color: 'blue' 
+# name: 'Hello World Printer'
+# description: 'my first custom action'
+# author: 'Ray Ventoso'
+# runs:
+#   using: 'docker'
+#   image: 'Dockerfile'
+# branding:
+#   icon: 'gift'
+#   color: 'blue' 
 
